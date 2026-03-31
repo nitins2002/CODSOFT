@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Nitin Solunke | Web Developer Portfolio</title>
+
+<meta name="description" content="Portfolio of Nitin Solunke - Web Developer and MCA Student">
+
+<link rel="stylesheet" href="style.css">
+
+<!-- ICONS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<!-- AOS Animation -->
+<link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"/>
+
+</head>
+
+
+<body>
+
+<!-- HEADER -->
+
+<header>
+
+<h1>Nitin Solunke</h1>
+
+<nav>
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+
+</header>
+
+
+
+<!-- HERO SECTION -->
+
+<section class="hero">
+
+<div class="hero-text">
+
+<h2>Hello, I'm <span>Nitin</span> 👋</h2>
+
+<h3>I am a <span id="typing"></span></h3>
+
+<p>
+I build responsive websites using HTML, CSS, JavaScript, PHP and Python.
+Passionate about learning new technologies and creating real-world projects.
+</p>
+
+<a href="#projects" class="btn">View Projects</a>
+<a href="resume.pdf" class="btn2" download>Download Resume</a>
+
+<!-- SOCIAL LINKS -->
+
+<div class="social-icons">
+
+<a href="https://github.com/nitins2002" target="_blank">
+<i class="fa-brands fa-github"></i>
+</a>
+
+<a href="https://www.linkedin.com/in/nitin-solunke-976574396" target="_blank" aria-label="LinkedIn">
+<i class="fa-brands fa-linkedin"></i>
+</a>
+
+<!-- Social icons stay, form added later -->
+
+</div>
+
+</div>
+
+
+<div class="hero-img">
+
+<img src="images/nitin.jpg" alt="Nitin Solunke - Full Stack Developer" loading="lazy">
+
+</div>
+
+</section>
+
+
+
+<!-- ABOUT -->
+
+<section id="about" data-aos="fade-up">
+
+<h2>About Me</h2>
+
+<p>
+MCA graduate and passionate Full Stack Developer based in India. I specialize in crafting responsive, modern web applications using HTML, CSS, JavaScript, React, Python (Django/Flask), and PHP.
+
+With hands-on experience in real-world projects, I focus on clean code, user experience, and scalable solutions. Currently seeking Full Stack Developer opportunities.
+
+</p>
+
+</section>
+
+
+
+<!-- SKILLS -->
+
+<section id="skills" data-aos="fade-up">
+
+<h2>My Skills</h2>
+
+<div class="skill">
+
+<p>HTML</p>
+<div class="bar"><span style="width:90%"></span></div>
+
+<p>CSS</p>
+<div class="bar"><span style="width:85%"></span></div>
+
+<p>JavaScript</p>
+<div class="bar"><span style="width:70%"></span></div>
+
+<p>Python</p>
+<div class="bar"><span style="width:80%"></span></div>
+
+<p>PHP</p>
+<div class="bar"><span style="width:65%"></span></div>
+
+</div>
+
+</section>
+
+
+
+<!-- PROJECTS -->
+
+<section id="projects">
+
+<h2>Projects</h2>
+
+<div class="project-container">
+
+<div class="card" data-aos="fade-up">
+
+<h3>Personal Portfolio</h3>
+
+<p>Modern, responsive portfolio website showcasing skills and projects. Built with HTML5, CSS3, Vanilla JS, AOS animations.</p>
+
+<a href="." class="btn" aria-label="Live Demo">Live Demo</a>
+
+<a href="https://github.com/nitins2002/portfolio" class="btn2" target="_blank">View Code</a>
+
+</div>
+
+
+<div class="card" data-aos="fade-up">
+
+<h3>Secure Login System</h3>
+
+<p>Full authentication system with registration, login, password hash (bcrypt), session management using PHP & MySQL.</p>
+
+<a href="https://github.com/nitins2002/login-system" class="btn" target="_blank">View Code</a>
+
+</div>
+
+
+<div class="card" data-aos="fade-up">
+
+<h3>Product Landing Page</h3>
+
+<p>Fully responsive SaaS product landing page with animations, pricing tables, and contact form. Pure HTML/CSS/JS.</p>
+
+<a href="https://nitins2002.github.io/landing-page" class="btn" target="_blank">Live Demo</a>
+
+<a href="https://github.com/nitins2002/landing-page" class="btn2" target="_blank">View Code</a>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- CONTACT -->
+
+<section id="contact" data-aos="fade-up">
+
+<h2 id="contact-h2">Contact Me</h2>
+
+<form class="contact-form" aria-labelledby="contact-h2">
+  <input type="text" placeholder="Your Name" required aria-label="Your Name">
+  <input type="email" placeholder="Your Email" required aria-label="Your Email">
+  <textarea placeholder="Your Message" rows="5" required aria-label="Your Message"></textarea>
+  <button type="submit" class="btn">Send Message</button>
+</form>
+
+<p><strong>Or email directly:</strong> <a href="mailto:nitinsolunke@gmail.com">nitinsolunke@gmail.com</a></p>
+
+<p><strong>Phone:</strong> +91 84592 20991</p>
+
+<p><strong>GitHub:</strong> <a href="https://github.com/nitins2002" target="_blank">github.com/nitins2002</a></p>
+
+</section>
+
+
+
+<!-- FOOTER -->
+
+<footer>
+
+<p>© 2024 Nitin Solunke. Built with ❤️ using HTML, CSS & JS | All Rights Reserved</p>
+
+</footer>
+
+
+
+<!-- TYPING EFFECT -->
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+<script>
+
+var typed = new Typed("#typing", {
+strings: ["Web Developer", "Python Developer", "MCA Student"],
+typeSpeed: 80,
+backSpeed: 50,
+loop: true
+});
+
+</script>
+
+
+<!-- ANIMATION -->
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script src="script.js"></script>
+<script>
+AOS.init({
+  duration: 800,
+  once: true,
+});
+</script>
+
+</body>
+</html>
